@@ -1,0 +1,28 @@
+main {
+  margin: 0px 10%;
+  display: flex;
+  justify-content: space-around;
+  .title {
+    @extend %cabecera;
+  }
+  .section {
+    margin-top: 10px;
+    width: 30%;
+
+    .dropdown_container{
+      @extend %contenido;
+    }
+
+
+    .collapse_container {
+      @extend %contenido;
+
+
+    }
+    .modal_container {
+      @extend %contenido;
+      text-align: center;
+
+    }
+  }
+}

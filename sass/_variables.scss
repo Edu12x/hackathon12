@@ -1,0 +1,33 @@
+//Estilos de cabecera
+$header-size: 30px;
+$header-color: lightgray;
+$letter-style: "Helvetica";
+
+//Estilos de cuerpo
+$main-size: 20px;
+
+//estilos de contenido
+%contenido {
+    border-right:black solid 1px ;
+    border-left:black solid 1px ;
+    border-bottom:black solid 1px ;
+    border-top:white solid 1px ;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 10px;
+}
+
+//Estilos de cabecera
+%cabecera{
+    font-size: $main-size;
+    color: white;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-right:darkgray solid 1px ;
+    border-left:darkgray solid 1px ;
+    border-top:darkgray solid 1px ;
+
+}

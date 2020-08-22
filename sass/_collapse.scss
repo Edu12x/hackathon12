@@ -1,0 +1,33 @@
+.collapse {
+    /* display: inline-block; */
+    margin-top: 10px;
+  }
+
+  .collapse_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    border: darkgray solid 1px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .collapse_header .fas {
+    cursor: pointer;
+    margin: 0;
+    padding: 5px;
+    border: gray solid 1px;
+    border-radius: 20px;
+  }
+  .collapse_text {
+    margin-top: 2px;
+    background-color: darksalmon;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    display: none;
+  }
+  .collapse_text.is-active {
+    display: block;
+  }

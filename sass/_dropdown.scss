@@ -1,0 +1,32 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown button {
+    min-width: 200px;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: blue;
+    cursor: pointer;
+  }
+
+  .dropdown ul {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: none;
+  }
+  .dropdown li {
+    list-style: none;
+  }
+  .dropdown a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: green;
+    color: white;
+  }
+  .dropdown.is-active ul {
+    display: block;
+  }
