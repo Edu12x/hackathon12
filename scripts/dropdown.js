@@ -3,7 +3,6 @@ export default class Dropdown {
     this.element = element;
     this.button = this.element.querySelector("button");
     this.ul = this.element.querySelector("ul");
-    const allElements = document.querySelectorAll(".dropdown");
     this.button.onmouseenter = function () {
       this.closest("div").classList.add("is-active");
     };

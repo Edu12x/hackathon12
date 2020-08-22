@@ -10,7 +10,10 @@ import Collapse from "./scripts/collapse.js";
 const collapse = document.querySelectorAll(".collapse");
 
 collapse.forEach(function (collapse) {
-  new Collapse(collapse);
+  const arrow = collapse.querySelector("span");
+  arrow.onclick = function () {
+    new Collapse(collapse).openArrow();
+  };
 });
 
 import Modal from "./scripts/modal.js";
