@@ -257,4 +257,27 @@ footer {
   color: black;
   text-align: center;
 }
+
+@media (max-width: 900px) {
+  main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .section {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .section {
+    width: 100%;
+  }
+  header {
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,20 @@
+@include breakpoint("tablet") {
+  main {
+    flex-wrap: wrap;
+    .section {
+        width: 40%;
+    }
+  }
+}
+
+@include breakpoint("smartphone"){
+    main {
+      flex-wrap: wrap;
+      .section {
+          width: 100%;
+      }
+    }
+    header{
+        font-size: 20px;
+    }
+  }

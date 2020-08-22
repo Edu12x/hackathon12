@@ -1,0 +1,20 @@
+
+@mixin breakpoint ($breakpoints){
+    @if ($breakpoints== "tablet" ){
+      @media (max-width: 900px ) {
+        @content;
+      }
+    }
+  
+    @if ($breakpoints=="smartphone"){
+      @media (max-width: 768px){
+        @content;
+      }
+    }
+  
+    @if ($breakpoints=="sm"){
+      @media (max-width: 420px){
+        @content;
+      }
+    }
+  }
