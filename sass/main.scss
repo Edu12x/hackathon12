@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 @import "variables";
 @import "header";
@@ -10,4 +13,5 @@
 @import "dropdown";
 @import "collapse";
 @import "modal";
-@import "button"
+@import "button";
+@import "footer"
